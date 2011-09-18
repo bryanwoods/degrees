@@ -1,0 +1,16 @@
+{
+	"author": "Bryan Woods <bryan@howaboutwe.com> (http://bryanwoods4e.com)",
+	"name": "degrees",
+	"description": "What are the degrees today?",
+	"version": "0.0.1",
+	"homepage": "http://github.com/bryanwoods/degrees",
+	"repository": {
+		"url": "git://github.com/bryanwoods/degrees.git"
+	},
+	"engines": {
+		"node": ">= 0.4.7"
+	},
+	"bin": {
+		"degrees": "./bin/degrees"
+	}
+}

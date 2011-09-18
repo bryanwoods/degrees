@@ -1,0 +1,13 @@
+#!/usr/local/bin/node
+(function() {
+  var WUNDERGROUND_URL, jsdom;
+  jsdom = require('jsdom');
+  WUNDERGROUND_URL = 'http://www.wunderground.com/cgi-bin/findweather/hdfForecast?query=11231';
+  jsdom.env(WUNDERGROUND_URL, ['http://code.jquery.com/jquery-1.5.min.js'], function(errors, window) {
+    var $, high, low;
+    $ = window.jQuery;
+    high = $('.fctHiLow .b').html();
+    low = $('.fctHiLow').first().html().split('|')[1].split('°')[0].trim();
+    return console.log("Today's high: " + high + "\nToday's low: " + low);
+  });
+}).call(this);
