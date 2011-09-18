@@ -11,4 +11,5 @@ jsdom.env BASE_URL + zip,
     high = $('.fctHiLow .b').html()
     low  = $('.fctHiLow').first().html().split('|')[1].split('°')[0].trim()
 
-    console.log "Today's high: #{high}\nToday's low: #{low}"
+    console.log "Today's high: #{high}"
+    console.log "Today's low: #{low}"
