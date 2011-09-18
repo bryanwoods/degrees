@@ -13,12 +13,12 @@ Install Degrees via NPM
 Display the predicted high and low temperature for today in Brooklyn
 
     $ degrees
-    => Today's high: 70
-    => Today's low: 54
+    => Today's high in 11231: 70
+    => Today's low in 11231: 54
 
 Display the predicted high and low temperature for today in another
 zipcode
 
     $ degrees 90210
-    => Today's high: 73
-    => Today's low: 58
+    => Today's high in 90210: 73
+    => Today's low in 90210: 58

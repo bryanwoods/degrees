@@ -11,7 +11,7 @@
     $ = window.jQuery;
     high = $('.fctHiLow .b').html();
     low = $('.fctHiLow').first().html().split('|')[1].split('°')[0].trim();
-    console.log("Today's high: " + high);
-    return console.log("Today's low: " + low);
+    console.log("Today's high in " + zip + ": " + high);
+    return console.log("Today's low in " + zip + ": " + low);
   });
 }).call(this);
