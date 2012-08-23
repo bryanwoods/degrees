@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/bryanwoods/degrees.png)](http://travis-ci.org/bryanwoods/degrees)
 ### What are the degrees out today?
 
 Degrees is a command line utility to answer that daily question.
